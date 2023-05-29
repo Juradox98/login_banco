@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inicio{
+    background-color: rgb(54, 147, 228);
+    padding: 25px;
+    height: 100vh;
+    width: 100wh;
+}
+
+.accion{
+    background-color: rgb(111, 169, 219);
+    padding: 25px;
+    display: none;
+    height: 100vh;
+    width: 100wh;
+    font-size: large;
+}
+
+.user{
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+.login{
+    padding: 3px;
+    border: 2px solid black;
+    font-size: large;
+}
+
+.consultar{
+    background-color: rgb(193, 193, 193);
+    margin-right: 20px;
+    padding: 3px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.consultar:hover {
+    background-color: rgb(30, 106, 220);
+    position: relative;
+    bottom: 5px;
+    color: antiquewhite;
+}
+
+.retirar{
+    background-color: rgb(193, 193, 193);
+    margin-right: 20px;
+    padding: 3px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.retirar:hover {
+    background-color: rgb(30, 106, 220);
+    position: relative;
+    bottom: 5px;
+    color: antiquewhite;
+}
+
+.depositar{
+    background-color: rgb(193, 193, 193);
+    padding: 3px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.depositar:hover {
+    background-color: rgb(30, 106, 220);
+    position: relative;
+    bottom: 5px;
+    color: antiquewhite;
+}
+
+.confirm{
+    border: 1px solid black;
+    padding: 3px;
+    font-size: medium;
+    background-color: rgb(127, 255, 155);
+}
+
+.confirm:hover {
+    background-color: rgb(30, 220, 119);
+    position: relative;
+    bottom: 5px;
+    color: black;
+}
+
+.otra{
+    border: 1px solid black;
+    padding: 3px;
+    font-size: medium;
+    background-color: rgb(127, 255, 155);
+}
+
+.otra:hover{
+    background-color: rgb(30, 220, 119);
+    position: relative;
+    bottom: 5px;
+    color: black;
+}
+
+.errorIngreso{
+background-color: aliceblue;
+    text-align: center;
+    display: none;
+    font-size: larger;
+    color: red;
+    font-weight: bolder;
+}
+
+.mensajesGenerales{
+    text-align: center;
+    display: none;
+    font-size: larger;
+}
+
+.balance{
+    text-align: center;
+    display: none;
+    font-size: larger;
+}
+
+.retiro{
+    text-align: center;
+    display: none;
+    font-size: larger;
+}
+
+.deposito{
+    text-align: center;
+    display: none;
+    font-size: larger;
+}
+
+.other{
+    text-align: center;
+    display: none;
+    font-size: larger;
+}
+
+.footer{
+    background-color: aquamarine;
+}
+ 
+.dato{
+    padding: 3px;
+    font-size: medium;
+}
+.figura1{
+    height: 50%;
+    width: 50%;
+}

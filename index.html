@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bancoSH.css">
+    <title>Black Bank</title>
+    <center><img src="./logo.png" alt=""></center>
+</head>
+<body>
+    <br>
+    <main class="inicio" id="inicio">
+        <center><h1>Welcome To Your Bank</h1></center>
+        <br>
+        <div class="errorIngreso" id="errorIngreso"></div>
+        <br>
+        <center>
+            <label class="user" for="usuario">Usuario</label>
+            <input class="dato" type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+            <label class="user" for="contrasena">Contraseña</label>
+            <input class="dato" type="text" name="contrasena" id="contrasena" placeholder="Introduzca contraseña">
+            <button class="login" onclick="ingresar()">Ingresar</button>
+        </center>
+        <br>
+        <br>
+        <center><img  class="figura1" src="./chase-center-warriors.jpg" alt=""></center>
+        
+    </main>
+    <div class="accion" id="accion" >
+        <center><h2 class="nombreUsuario">Bienvenido</h2></center>
+        <br>
+        <center><img src="./slate_edge_card.png" alt=""></center>
+        <br>
+        <div id="buttons" align="middle">
+            <button class="consultar" id="consultar">Consultar</button>
+            <button class="retirar" id="retirar">Retirar</button>
+            <button class="depositar" id="depositar">Depositar</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="mensajesGenerales" id="mensajesGenerales"></div>
+        <br>
+        <br>
+        <div class="balance" id="balance"></div>
+        <br>
+        <br>
+        <div class="retiro" id="showRetiro">
+            <input class="dato" type="number" name="retiro" id="retiro" placeholder="Digite la cantidad a retirar">
+            <button class="confirm" id="retiro1" >Confirmar Retiro</button>
+        </div>
+        <div class="deposito" id="showDeposito">
+            <input class="dato" type="number" name="deposito" id="deposito" placeholder="Digite la cantidad a depositar">
+            <button class="confirm" id="deposito1">Confirmar Deposito</button>
+        </div>
+        <br>
+        <br>
+        <div class="other" id="other"><button class="otra" id="otra">Realizar otra operacion</button></div>
+
+    </div>
+    <script src="./bancoSH.js"></script>
+    <br>
+    <center><p>Contenido didactico sin valor legal unicamente con fines educativos</p></center>
+    <br>
+    <br>
+    <footer class="footer">
+        Creado por Erik Juradox. Derechos reservados.
+    </footer>
+</body>
+</html>
